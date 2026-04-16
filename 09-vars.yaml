@@ -3,6 +3,5 @@
   connection: local
   tasks:
   - name: print variables from args
-    NAME: Yamuna
     ansible.builtin.debug:
       msg: "Hello {{ NAME }}, Good Morning"
