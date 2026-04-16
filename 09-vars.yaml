@@ -1,8 +1,8 @@
 - name: variables from args
   hosts: local
   connection: local
-  NAME: Yamuna
   tasks:
   - name: print variables from args
+    NAME: Yamuna
     ansible.builtin.debug:
       msg: "Hello {{ NAME }}, Good Morning"
